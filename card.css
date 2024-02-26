@@ -1,0 +1,60 @@
+.card {
+    /* Styles for the card in its normal state */
+    padding:10px;
+    border:10px solid #3dd4ca;
+    border-radius: 10px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-color: #fff;
+    width:300px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .card.expanded {
+    /* Styles for the card in its expanded state */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    image-resolution: 1000%,1000%,100;
+    image-rendering: auto;
+    background-color: peachpuff; /* Optional overlay */
+    z-index: 10; /* Ensure card is above other elements */
+  }
+  
+  .card .image-container {
+    /* Styles for the image container */
+    width: 45%;
+    height: auto;
+    flex: 1; /* Allow image to fill available space */
+  }
+  
+  .card .content {
+    /* Styles for the content section */
+    /* Allow content to fill available space */
+    text-align: center;
+    width:100%;
+    padding:10px 0px;
+    caret-color:red;
+  }
+  .card.hello {
+    background-color: black;
+  }
+  button{
+    border:1px solid black;
+    background-color: rgb(16, 211, 114);
+    width:90%;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-inline: auto;
+}
+
+button:hover{
+    opacity:.6;
+}

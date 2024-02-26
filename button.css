@@ -1,0 +1,13 @@
+button{
+    border:1px solid black;
+    background-color: blueviolet;
+    width:90%;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-inline: auto;
+}
+
+button:hover{
+    opacity:.6;
+}
